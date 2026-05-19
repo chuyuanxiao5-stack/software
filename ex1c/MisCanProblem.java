@@ -1,7 +1,10 @@
 package ex1c;
 
 import java.util.*;
-
+/**
+ * MisCan Problem (DFS / BFS)
+ * 宣教師と人食い問題の探索プログラム
+ */
 public class MisCanProblem {
     public static void main(String[] args) {
 	System.out.println("縦型検索");
