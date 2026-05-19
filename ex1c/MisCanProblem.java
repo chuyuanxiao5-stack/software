@@ -7,12 +7,12 @@ import java.util.*;
  */
 public class MisCanProblem {
     public static void main(String[] args) {
-	System.out.println("縦型検索");
+	System.out.println("DFS（深さ優先探索）開始");
 	var solverDFS = new SolverDFS();
 	//左岸に宣教師3人、人食い3人、船あり
 	solverDFS.solve(new MisCanWorld(3, 3, 1));
 
-	System.out.println("横型検索");
+	System.out.println("BFS（幅優先探索）開始");
 	var solverBFS = new SolverBFS();
 	solverBFS.solve(new MisCanWorld(3,1,1));
 	
