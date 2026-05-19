@@ -8,6 +8,7 @@ import java.util.*;
 public class MisCanProblem {
     public static void main(String[] args) {
 	System.out.println("DFS（深さ優先探索）開始");
+    Set<String> visited = new HashSet<>();
 	var solverDFS = new SolverDFS();
 	//左岸に宣教師3人、人食い3人、船あり
 	solverDFS.solve(new MisCanWorld(3, 3, 1));
