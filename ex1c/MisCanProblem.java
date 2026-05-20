@@ -2,6 +2,7 @@ package ex1c;
 
 import java.util.*;
 //PR再生のためのコメント
+// featureブランチで追加
 /**
  * MisCan Problem (DFS / BFS)
  * 宣教師と人食い問題の探索プログラム
